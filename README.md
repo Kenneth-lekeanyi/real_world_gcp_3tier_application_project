@@ -2,6 +2,7 @@
 
 # 👨🏼‍💻Deploying a Multi/3 Tier Web Application on GCP👨🏼‍💻
 In this runbook, we will discuss/implement the LAMP installation with multi-tier architecture on GCP. We will be using the Compute Engine service of GCP for Linux server, Apache Web server and php. For the Mysql database, we will use the SQL service of GCP as a separate micro service. We will connect both the services to design  a multi-tier architecture for LAMP installation. For Installing LAMP on GCP, you need to have a registered GCP account. At this point, I assume that you already have a registered GCP account.
+![Screenshot 2024-12-26 at 6 33 03 PM](https://github.com/user-attachments/assets/4b1f3f4e-4775-4785-a2d6-34bbf5786689)
 
 ## Step 1: Creating A MySQL Database Using SQL Service Of GCP
 To create a mysql database using SQL service of GCP, go to Navigation menu  > SQL. Now click on “create instance”, choose database engine as MySQL and click on next. Next you need to choose the use case i.e. for development, staging or production. Here we will choose development. Next in the configure step,  choose Instance Id, Root Password, Region and zone. You can also change other configuration parameters as per your requirement but we will keep it default for this demo. Now click on create button to create the mysql instance. Once the Mysql Instance is created, you can click on its instance id to see its details. You can also find the Public IP of the MySQL instance in the Overview section.
