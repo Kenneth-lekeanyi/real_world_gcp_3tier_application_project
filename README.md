@@ -35,7 +35,7 @@ Before creating the Instance Template, you must make sure you have the following
 - Expand Advance Options 
     - Click on Management 
     - Navigate to the Automation (Startup-Script) section 
-    - Paste the following script in the Box: https://github.com/awanmbandi/google-cloud-projects/blob/main/startup-script/app-automation.sh
+    - Paste the following script in the Box: [here](https://github.com/awanmbandi/google-cloud-projects/blob/main/startup-script/app-automation.sh)
 - Note: Leave everything else as Default and Create
 - Click on `CREATE`
 
